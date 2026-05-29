@@ -8,7 +8,7 @@ function go(id, page) {
     }
 }
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE ="https://smart-scape.onrender.com/api";
 let currentCafeDetails = null;
 
 async function fetchJSON(url, options = {}) {
