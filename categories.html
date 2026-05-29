@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartScape | Explore Categories</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="categories-page">
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-location-dot"></i>
+            Smart<span>Scape</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Explore</a>
+            <a href="saved.html">Saved</a>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <p class="hero-badge">
+            <i class="fa-solid fa-map-location-dot"></i>
+            Choose your city mood
+        </p>
+
+        <h1>What do you want to explore today?</h1>
+
+        <p>
+            Pick a category and SmartScape will guide you to places around
+            Dehradun based on experience, vibe and local relevance.
+        </p>
+    </section>
+
+    <section class="grid category-grid">
+
+        <div class="card cafe" id="cafes">
+            <i class="fas fa-coffee"></i>
+            <h3>Cafes</h3>
+            <p>Cozy corners, coffee spots and hangout places.</p>
+            <span>Explore Cafes →</span>
+        </div>
+
+        <div class="card temple" id="temples">
+            <i class="fas fa-gopuram"></i>
+            <h3>Temples</h3>
+            <p>Peaceful spiritual places and local devotional spots.</p>
+            <span>Explore Temples →</span>
+        </div>
+
+        <div class="card park" id="parks">
+            <i class="fas fa-tree"></i>
+            <h3>Parks</h3>
+            <p>Green spaces for walks, calm time and fresh air.</p>
+            <span>Explore Parks →</span>
+        </div>
+
+        <div class="card mall" id="malls">
+            <i class="fas fa-shopping-bag"></i>
+            <h3>Malls</h3>
+            <p>Shopping, food courts, entertainment and city life.</p>
+            <span>Explore Malls →</span>
+        </div>
+
+        <div class="card restaurant" id="restaurants">
+            <i class="fas fa-utensils"></i>
+            <h3>Restaurants</h3>
+            <p>Food places for family, friends and weekend plans.</p>
+            <span>Explore Food →</span>
+        </div>
+
+        <div class="card tourist" id="tourist">
+            <i class="fas fa-camera"></i>
+            <h3>Tourist Spots</h3>
+            <p>Popular places, scenic routes and memorable visits.</p>
+            <span>Explore Spots →</span>
+        </div>
+
+    </section>
+
+    <div class="center-action">
+        <button id="savedBtn" class="primary-btn">
+            <i class="fas fa-bookmark"></i>
+            View Saved Places
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

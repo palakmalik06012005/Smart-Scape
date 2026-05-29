@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartScape | Cafes</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="categories-page">
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-location-dot"></i>
+            Smart<span>Scape</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="saved.html">Saved</a>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+
+        <p class="hero-badge">
+            <i class="fa-solid fa-mug-hot"></i>
+            Cafe Discovery Zone
+        </p>
+
+        <h1>Find Your Perfect Cafe</h1>
+
+        <p>
+            Whether you're looking for a quiet study corner, a cozy coffee date,
+            or a trendy hangout spot, discover the best cafes in Dehradun.
+        </p>
+
+    </section>
+
+    <section class="cafe-dashboard">
+
+        <div class="dashboard-card">
+            <i class="fas fa-coffee"></i>
+            <h3>Local Cafes</h3>
+            <p>Explore popular and hidden gems.</p>
+        </div>
+
+        <div class="dashboard-card">
+            <i class="fas fa-wallet"></i>
+            <h3>Budget Based</h3>
+            <p>Find cafes matching your spending range.</p>
+        </div>
+
+        <div class="dashboard-card">
+            <i class="fas fa-couch"></i>
+            <h3>Ambience Filter</h3>
+            <p>Choose cozy, calm or vibrant vibes.</p>
+        </div>
+
+        <div class="dashboard-card">
+            <i class="fas fa-users"></i>
+            <h3>Crowd Insights</h3>
+            <p>Select based on crowd preference.</p>
+        </div>
+
+    </section>
+
+    <div class="filter-wrapper">
+
+        <div class="filter-header">
+            <h2>
+                <i class="fa-solid fa-sliders"></i>
+                Smart Filters
+            </h2>
+
+            <p>
+                Narrow down your search using crowd level,
+                ambience and budget.
+            </p>
+        </div>
+
+        <div class="filter-box">
+
+            <input
+                type="text"
+                id="searchBar"
+                placeholder="Search cafes by name..."
+            >
+
+            <select id="crowdFilter">
+                <option value="all">All Crowd Levels</option>
+                <option value="high">High Crowd</option>
+                <option value="moderate">Moderate Crowd</option>
+                <option value="low">Low Crowd</option>
+            </select>
+
+            <select id="ambienceFilter">
+                <option value="all">All Ambience</option>
+                <option value="cozy">Cozy</option>
+                <option value="calm">Calm</option>
+            </select>
+
+            <select id="budgetFilter">
+                <option value="all">All Budgets</option>
+                <option value="low">Low Budget</option>
+                <option value="medium">Medium Budget</option>
+                <option value="high">Premium Budget</option>
+            </select>
+
+        </div>
+
+    </div>
+
+    <section>
+
+        <div class="section-heading">
+            <h2>Available Cafes</h2>
+            <p>Filtered results will appear below.</p>
+        </div>
+
+        <div class="c-grid" id="cafeContainer"></div>
+
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartScape | Saved Places</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+
+<body class="categories-page">
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-location-dot"></i>
+            Smart<span>Scape</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="saved.html">Saved</a>
+        </div>
+
+    </nav>
+
+    <section class="page-hero">
+
+        <p class="hero-badge">
+            <i class="fa-solid fa-bookmark"></i>
+            Personal Travel Collection
+        </p>
+
+        <h1>Your Saved Places</h1>
+
+        <p>
+            Keep track of cafes, restaurants, parks and destinations
+            you want to visit later. Your personal Dehradun bucket list
+            lives here.
+        </p>
+
+    </section>
+
+    <section class="saved-banner">
+
+        <div class="saved-banner-content">
+
+            <div class="saved-icon">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div>
+
+                <h2>Your Travel Wishlist</h2>
+
+                <p>
+                    Save places while exploring SmartScape and build
+                    your own collection of favorite destinations,
+                    weekend plans and future visits.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="section-heading">
+            <h2>Saved Destinations</h2>
+            <p>
+                All bookmarked places will appear below.
+            </p>
+        </div>
+
+        <div class="c-grid" id="savedContainer"></div>
+
+        <div id="emptySavedState" class="empty-state" style="display:none;">
+
+            <i class="fa-regular fa-bookmark"></i>
+
+            <h3>No Saved Places Yet</h3>
+
+            <p>
+                Start exploring categories and save places
+                to build your personal collection.
+            </p>
+
+            <a href="categories.html" class="primary-btn">
+                <i class="fa-solid fa-compass"></i>
+                Explore Places
+            </a>
+
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
